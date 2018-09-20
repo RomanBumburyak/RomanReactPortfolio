@@ -4,39 +4,45 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
+  background-image: url(./img/PicassoPic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #222;
-  height: 500px;
+  height: 600px;
   padding: 20px;
-  color: black;
+  color: white;
   margin-bottom: 25px;
-  background-image: url(./img/MainImageOne.png);
 }
 
 .App-headerTwo {
-  background-color: #222;
+  background-color: black;
   height: 250px;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
 }
 .CreationInformation{
+  font-weight: bold;
   font-size: large;
 }
 
 .App-headerThree {
-  background-color: #222;
+  background-color: black;
   height: 250px;
   padding: 20px;
   color: white;
-  background-image: url(./img/HoneyCombJs.webp);
+  background-image: url(./img/9943.jpg);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  /*background-position: center;*/
 }
-
 
 .AppDivTwo{
   margin: 2rem;
@@ -44,8 +50,8 @@
   height: 300px;
   padding:20px;
   background-color: red;
+  transition:
 }
-
 
 .App-title {
   font-size: 1.5em;
@@ -57,8 +63,8 @@
 
 .MyExtensionsFlexed{
   display: flex;
-  justify-content:space-between;
-  /*flex-wrap: wrap;*/
+  justify-content:space-around;
+  flex-wrap: wrap;
 
 }
 .ExtensionOne{
@@ -73,6 +79,8 @@
 .ExtensionTwo{
   /*background-color: red;*/
   background-image: url(./img/HoneyCombJs.webp);
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
   height: 500px;
   width: 500px;
   padding: 20px;
@@ -81,14 +89,55 @@
 }
 
 .ExtensionThree{
-  /*background-color: blue;*/
-  background-image: url(./img/NpmImageMedium.jpg);
+  background-image: url(./img/NpmLarge.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-weight: bold;
+  font-size: 1.3rem;
   height: 500px;
   width: 500px;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
 }
+
+.ExtensionFour{
+  background-image: url(./img/react.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.ExtensionFive{
+  background-image: url(./img/NodeJsFirst.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.ExtensionSix{
+  background-image: url(./img/JavaAndroidStudio.jpeg);
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
 
 
 
