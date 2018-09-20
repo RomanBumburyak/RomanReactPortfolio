@@ -13,8 +13,9 @@
   background-color: #222;
   height: 500px;
   padding: 20px;
-  color: white;
+  color: black;
   margin-bottom: 25px;
+  background-image: url(./img/MainImageOne.png);
 }
 
 .App-headerTwo {
@@ -33,6 +34,7 @@
   height: 250px;
   padding: 20px;
   color: white;
+  background-image: url(./img/HoneyCombJs.webp);
 }
 
 
@@ -53,13 +55,41 @@
   font-size: large;
 }
 
-.Contacts{
-  background-color: red;
+.MyExtensionsFlexed{
+  display: flex;
+  justify-content:space-between;
+  /*flex-wrap: wrap;*/
+
+}
+.ExtensionOne{
+  background-color: black;
   height: 500px;
+  width: 500px;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
 }
+
+.ExtensionTwo{
+  /*background-color: red;*/
+  background-image: url(./img/HoneyCombJs.webp);
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.ExtensionThree{
+  /*background-color: blue;*/
+  background-image: url(./img/NpmImageMedium.jpg);
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
 
 
 @keyframes App-logo-spin {

@@ -42,22 +42,41 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+    <div className= "MyExtensionsFlexed">
+          <div className= "ExtensionOne">
+              Why do you want to extend this so bad?
+          </div>
+
+          <div className= "ExtensionTwo">
+              Why do you want to extend this so bad?
+          </div>
+
+          <div className= "ExtensionThree">
+              Why do you want to extend this so bad?
+          </div>
       </div>
+  </div>
+
+
     );
   }
 }
 
 
- class Contacts extends React.Component{
-   render(){
-     return (
-       <h1>Header Part 2</h1>
-     )
 
-
-   }
- }
-
+ //
+ // class Contacts extends React.Component{
+ //   render(){     //must define the render method in a React Component.
+ //     return (
+ //        <div className= "ContactClassOne"></div>
+ //
+ //     )
+ //
+ //
+ //   }
+ // }
+ //
 
 
 
