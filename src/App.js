@@ -20,16 +20,19 @@ class App extends Component {
           <h3> I like to Create and Maintain Software.</h3>
         </header>
 
+            <div className= "ContactBar">
+
+            </div>
+
           <header className="App-headerTwo">
              <h2>This Site was created using React.js </h2>
              <p className="CreationInformation">
                 Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript, Node.js, Express, HTML 5, CSS 3,
                 Git & Zsh, Github, SQL Databases, MongoDB, WordPress among other frameworks.
-                <FontAwesomeIcon icon="coffee" href="https://reactjs.org/docs/react-component.html" />Click me
+                <FontAwesomeIcon icon="coffee" href="https://reactjs.org/docs/react-component.html" />
                 <FontAwesomeIcon icon= "check-square" />
                 <FontAwesomeIcon icon="coffee" />
-                <FontAwesomeIcon icon="coffee" />
-
+       
 
              </p>
           </header>
