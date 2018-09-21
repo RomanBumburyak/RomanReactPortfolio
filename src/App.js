@@ -16,25 +16,34 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1> Roman N.Bumburyak Software Development </h1>
-          <h3> I like to Create and Maintain Software.</h3>
+            <div className="MainHeaderDiv">
+              <h2> Roman N.Bumburyak </h2>
+              <h2> Software Development </h2>
+              <a href="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" /> Github</a>
+              <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square" /> LinkedIn</a>
+
+              <h3> I Create and Maintain Software.</h3>
+            </div>
         </header>
 
-            <div className= "ContactBar">
-
-            </div>
+            // <div className= "ContactBar">
+            // <a href="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" /> Github</a>
+            // <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square" /> LinkedIn</a>
+            //
+            //
+            // </div>
 
           <header className="App-headerTwo">
              <h2>This Site was created using React.js </h2>
-             <p className="CreationInformation">
-                Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript, Node.js, Express, HTML 5, CSS 3,
-                Git & Zsh, Github, SQL Databases, MongoDB, WordPress among other frameworks.
-                <FontAwesomeIcon icon="coffee" href="https://reactjs.org/docs/react-component.html" />
-                <FontAwesomeIcon icon= "check-square" />
-                <FontAwesomeIcon icon="coffee" />
-       
+               <p className="CreationInformation">
+                  Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript,
 
-             </p>
+               </p>
+            <p className="CreationInformationTwo">
+             Node.js, Express, HTML 5, CSS 3,
+            Git & Zsh, Github, SQL Databases, MongoDB, WordPress among other frameworks.
+            </p>
+
           </header>
 
           <header className="App-headerThree">
@@ -49,31 +58,35 @@ class App extends Component {
           <div className= "ExtensionOne">
           <img src={logo} className="App-logo" alt="logo" />
 
-              Why do you want to extend this so bad?
+             <h1> My goals and my Mission </h1>
 
-                       Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non-numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
-
+                       I am a motivated and hungry developer. I love to code and I love to learn new technologies. I am patient and a great team player.
+                       I am detail oriented and I am consistently thinking outside-the-box.
 
 
 
           </div>
 
           <div className= "ExtensionTwo">
-              Why do you want to extend this so bad?
+            <h1> My Story </h1>
+                I have always loved computers and technology, I have always been near my computer and my tech. I vividly remember my first Sony Computer when I was five years old.
+                Growing up I sat by my computer for hours on end - learning and practicing. I learned HTML and CSS and began creating landing pages. I grew as a freelancer and
+                began learning JavaScript. From there my interest really blossomed. I began looking into Object Oriented programming and saw the potential. I am constantly learning and
+                researching programmatic languages and frameworks. From a young age, I knew that developing software would be a life long dream and activity.
 
-              Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit
           </div>
 
           <div className= "ExtensionThree">
-              Node.js Package manager
+              NPM is the Node.js Package manager.
           </div>
 
           <div className= "ExtensionFour">
-              This website was built in React.js.
+              This website was built in React.js along with Node.js and Express.
           </div>
 
           <div className= "ExtensionFive">
-              Why do you want to extend this so bad?
+            <p className="NodeIntroBlock">  Node.js is a JavaScript environment that includes everything a Developer needs to run a program written in JavaScript.
+            </p>
           </div>
 
           <div className= "ExtensionSix">
@@ -82,7 +95,7 @@ class App extends Component {
           </div>
 
           <div className= "Underliner">
-              Under the NPM it goes.
+
           </div>
 
       </div>
