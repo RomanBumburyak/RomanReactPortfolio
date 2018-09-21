@@ -19,24 +19,18 @@ class App extends Component {
             <div className="MainHeaderDiv">
               <h2> Roman N.Bumburyak </h2>
               <h2> Software Development </h2>
-              <a href="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" /> Github</a>
-              <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square" /> LinkedIn</a>
+              <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" style={{ textShadow: '0 1px 0 rgba(193, 66, 66)' }, {color:'red'}} /> Github</a>
+              <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square"style={{ textShadow: '0 1px 0 rgba(193, 66, 66)' }, {color:'red'}} /> LinkedIn</a>
 
               <h3> I Create and Maintain Software.</h3>
             </div>
         </header>
 
-            // <div className= "ContactBar">
-            // <a href="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" /> Github</a>
-            // <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square" /> LinkedIn</a>
-            //
-            //
-            // </div>
 
           <header className="App-headerTwo">
              <h2>This Site was created using React.js </h2>
                <p className="CreationInformation">
-                  Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript,
+                  My Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript,
 
                </p>
             <p className="CreationInformationTwo">
@@ -47,7 +41,21 @@ class App extends Component {
           </header>
 
           <header className="App-headerThree">
-             <h2>This Site was created using Node.js</h2>
+             <h2> Here are several examples of my work. The examples range from HTML, CSS and JavaScript to Java.</h2>
+
+                 <div className="HeaderThreeExtensionOne">
+                              <h4> Here are several examples of my work. The examples range from HTML, CSS and JavaScript to Java.</h4>
+                 </div>
+
+                 <div className="HeaderThreeExtensionTwo">
+
+                 </div>
+
+                 <div className="HeaderThreeExtensionThree">
+
+                 </div>
+
+
           </header>
 
 
@@ -65,7 +73,7 @@ class App extends Component {
 
 
 
-          </div>
+            </div>
 
           <div className= "ExtensionTwo">
             <h1> My Story </h1>
@@ -77,7 +85,7 @@ class App extends Component {
           </div>
 
           <div className= "ExtensionThree">
-              NPM is the Node.js Package manager.
+              Npm is the Node.js Package manager.
           </div>
 
           <div className= "ExtensionFour">
@@ -94,32 +102,11 @@ class App extends Component {
               with XML and Kotlin.
           </div>
 
-          <div className= "Underliner">
-
-          </div>
-
-      </div>
-   </div>
 
 
     );
   }
 }
-
-
-
- //
- // class Contacts extends React.Component{
- //   render(){     //must define the render method in a React Component.
- //     return (
- //        <div className= "ContactClassOne"></div>
- //
- //     )
- //
- //
- //   }
- // }
- //
 
 
 

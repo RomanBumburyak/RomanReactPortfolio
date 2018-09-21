@@ -1,4 +1,4 @@
-//Web pack configuration:
+//Web pack configuration
 
 const path = require("path");
 const webpack = require("webpack");
