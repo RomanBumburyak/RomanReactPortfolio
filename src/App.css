@@ -10,15 +10,17 @@
   height: 80px;
 }
 
+
 .MainHeaderDiv{
-  height: 250px;
+  height: 270px;
   width:180px;
   background-color: #222;
+  color: yellow;
   /*display: inline-block;*/
   position:relative;
-  left:650px;
+  left:1050px;
   top: 120px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .App-header {
@@ -74,22 +76,22 @@
 
 .HeaderThreeExtensionOne{
   width: 160px;
-  height: 270px;
+  height: 250px;
   background-color: red;
 
 }
 
 .HeaderThreeExtensionTwo{
   width: 160px;
-  height: 270px;
-  background-color: blue;
+  height: 250px;
+  background-color: white;
 
 }
 
 .HeaderThreeExtensionThree{
   width: 160px;
-  height: 270px;
-  background-color: green;
+  height: 250px;
+  background-color: blue;
 
 }
 
@@ -181,6 +183,8 @@
   color: black;
   margin-top: 10px;
   font-weight:bold;
+  position: relative;
+  top: 190px;
 }
 
 .ExtensionSix{
@@ -190,13 +194,13 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 500px;
-  width: 500px;
+  width: 500px;ß
   padding: 20px;
-  color: white;
+  color: black;
   margin-bottom: 25px;
 }
 
-/*.UnderlinerOne{
+.UnderLinerOne{
   background-image: url(./img/HtmlCss.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -204,12 +208,20 @@
   width: 500px;
   padding: 20px;
   color: white;
-  margin-bottom: 25px;
 
-}*/
+}
 
-
-
+.UnderLinerParaOne{
+  margin-top: 334px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  height: 63px;
+  width: 500px;
+  background-color: rgb(56, 90, 170);
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

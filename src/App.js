@@ -7,6 +7,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 
+
+
 library.add(faCoffee, faCheckSquare);
 
 
@@ -18,14 +20,11 @@ class App extends Component {
         <header className="App-header">
             <div className="MainHeaderDiv">
               <h2> Roman N.Bumburyak </h2>
-              <h2> Software Development </h2>
-              <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"><FontAwesomeIcon icon="coffee" style={{ textShadow: '0 1px 0 rgba(193, 66, 66)' }, {color:'red'}} /> Github</a>
-              <a href="https://www.linkedin.com/in/romanbumburyak/"><FontAwesomeIcon icon="check-square"style={{ textShadow: '0 1px 0 rgba(193, 66, 66)' }, {color:'red'}} /> LinkedIn</a>
-
-              <h3> I Create and Maintain Software.</h3>
+                <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"> <h3> Check out my code on Github here. </h3> </a>
+                  <h2> Software Development </h2>
+                <a href="https://www.linkedin.com/in/romanbumburyak/" > <h3> Connect with me on LinkedIn</h3> </a>
             </div>
         </header>
-
 
           <header className="App-headerTwo">
              <h2>This Site was created using React.js </h2>
@@ -66,10 +65,17 @@ class App extends Component {
           <div className= "ExtensionOne">
           <img src={logo} className="App-logo" alt="logo" />
 
-             <h1> My goals and my Mission </h1>
+             <h1> My Mantra </h1>
+               <h2> I am a motivated and hungry developer. </h2>
 
-                       I am a motivated and hungry developer. I love to code and I love to learn new technologies. I am patient and a great team player.
-                       I am detail oriented and I am consistently thinking outside-the-box.
+                        I love to code and I love to learn new technologies.
+                       I am detail oriented and I am consistently thinking outside-the-box. Technology is growing and
+                       expanding at an astounding pace. As a Developer, I understand that staying on top of tech is a
+                       way to utlilize them quicker and stay ahead of the competition, while <h2>saving time </h2>. I aspire to
+                       become an Architect in Programming one day in order to create applications that will contribute
+                       to the expansion of Tech and Web Development.
+
+
 
 
 
@@ -85,7 +91,7 @@ class App extends Component {
           </div>
 
           <div className= "ExtensionThree">
-              Npm is the Node.js Package manager.
+              Npm is the Node.js Package Manager I used for this React App.
           </div>
 
           <div className= "ExtensionFour">
@@ -103,8 +109,23 @@ class App extends Component {
           </div>
 
 
+          <div className= "UnderLinerOne">
 
-    );
+           <p className="UnderlinerParaOne">
+              I have experience building several Android applications with Android Studio. I have working knowledge
+              with XML and Kotlin.
+           </p>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+
+
+  )
   }
 }
 
