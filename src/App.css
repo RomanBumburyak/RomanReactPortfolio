@@ -12,10 +12,10 @@
 
 
 .MainHeaderDiv{
-  height: 270px;
+  height: 340px;
   width:180px;
   background-color: #222;
-  color: yellow;
+  color: white;
   /*display: inline-block;*/
   position:relative;
   left:1050px;
@@ -35,14 +35,6 @@
   /*margin-bottom: 5px;*/
 }
 
-/*.ContactBar{
-  background-color: #222;
-  height: 20px;
-  padding: 20px;
-  color: white;
-  margin-bottom: 25px;
-}*/
-
 .App-headerTwo {
   background-color: #222;
   height: 180px;
@@ -50,6 +42,13 @@
   color: white;
   margin-bottom: 25px;
 }
+.App-headerTwo:hover{
+background-color: grey;
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
 .CreationInformation{
   font-weight: bold;
   font-size: large;
@@ -77,21 +76,42 @@
 .HeaderThreeExtensionOne{
   width: 160px;
   height: 250px;
-  background-color: red;
+  background-color: rgb(0, 181, 112);
+  font-family: sans-serif;
 
 }
 
 .HeaderThreeExtensionTwo{
-  width: 160px;
-  height: 250px;
+  color: black;
+  width: 300px;
+  height: 400px;
   background-color: white;
 
+}
+
+
+
+.App-logo-CanI{
+    display: flex;
+    justify-content: inline-block;
+    width: 180px;
+    height: 100px;
+    background-image: url(./img/JavaRed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: example;
+    animation-name: resize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 5px 5px 25px #000;
 }
 
 .HeaderThreeExtensionThree{
   width: 160px;
   height: 250px;
-  background-color: blue;
+  background-color: rgb(67,214,252);
 
 }
 
@@ -101,7 +121,6 @@
   height: 300px;
   padding:20px;
   background-color: red;
-  transition:
 }
 
 .App-title {
@@ -129,7 +148,6 @@
 }
 
 .ExtensionTwo{
-  /*background-color: red;*/
   background-image: url(./img/HoneyCombJs.webp);
   background-repeat: no-repeat;
   /*background-size: contain;*/
@@ -151,6 +169,9 @@
   padding: 20px;
   color: white;
   margin-bottom: 25px;
+}
+.ExtensionThree:hover{
+  background-image: url(./img/npmDark.png);
 }
 
 .ExtensionFour{
@@ -174,17 +195,54 @@
   width: 500px;
   padding: 20px;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
+  animation: 5s;
+  animation-name: popOutThree;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
+}
+
+.NpmTerminalLook{
+  background-color: black;
+  height: 500px;
+  width: 550px;
+  color:red;
+  top: 150px;
+  animation: 5s;
+  animation-name: popOutFour;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
+}
+
+.InternalTerminal{
+  background-color: black;
+
+  height: 450px;
+  width: 550px;
+  animation-name: popOutFour;
+
 }
 
 .NodeIntroBlock{
   background-color: #99CC33;
   border-radius: 15px 50px 30px;
   color: black;
-  margin-top: 10px;
   font-weight:bold;
   position: relative;
-  top: 190px;
+  top: 200px;
+  animation: 5s;
+  animation-name: popOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
 }
 
 .ExtensionSix{
@@ -208,22 +266,116 @@
   width: 500px;
   padding: 20px;
   color: white;
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
+  animation-name: popOutTwo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
 
 }
 
 .UnderLinerParaOne{
   margin-top: 334px;
-  color: white;
+  color: black;
   font-size: 1.2rem;
   font-weight: bold;
   position: relative;
   top: 40px;
   height: 63px;
   width: 500px;
-  background-color: rgb(56, 90, 170);
+
+  /*background-color: rgb(56, 90, 170);*/
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes resize {
+  0% {
+    padding: 0;
+    background-color:rgb(237,34,51);
+  }
+
+  50% {
+    padding: 0 20px;
+    background-color:rgb(237,34,51);
+  }
+  100% {
+    padding: 0 100px;
+    background-color:rgb(237,34,51);
+  }
+}
+
+@keyframes popOut {
+  0% {
+    padding: 0;
+    background-color:white;
+  }
+
+  50% {
+    padding: 0 20px;
+    background-color:silver;
+  }
+  100% {
+    padding: 0 100px;
+    background-color:#99CC33;
+  }
+
+}
+
+@keyframes popOutTwo {
+  0% {
+    padding: 0;
+    background-color:white;
+  }
+
+  50% {
+    padding: 0 ;
+    background-color:grey;
+  }
+  100% {
+    padding: 0 ;
+    background-color:white;
+  }
+
+}
+
+@keyframes popOutThree {
+  0% {
+    padding: 0;
+    background-color:#99CC33;
+  }
+
+  50% {
+    padding: 0 ;
+    background-color:grey;
+  }
+  100% {
+    padding: 0 ;
+    background-color:black;
+  }
+
+}
+
+
+@keyframes popOutFour {
+  0% {
+    padding: 0;
+    background-color:white;
+  }
+
+  50% {
+    padding: 0 20px;
+    background-color:silver;
+  }
+  100% {
+    padding: 0 100px;
+    background-color:black;
+  }
+
 }

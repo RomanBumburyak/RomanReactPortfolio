@@ -1,6 +1,6 @@
 Create React App is divided into two packages:
 
-Project can be found at: https://aqueous-everglades-32102.herokuapp.com/
+Project can be found at: http://www.romanthedev.com/
 
 
 

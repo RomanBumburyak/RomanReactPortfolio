@@ -20,37 +20,53 @@ class App extends Component {
         <header className="App-header">
             <div className="MainHeaderDiv">
               <h2> Roman N.Bumburyak </h2>
-                <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"> <h3> Check out my code on Github here. </h3> </a>
-                  <h2> Software Development </h2>
-                <a href="https://www.linkedin.com/in/romanbumburyak/" > <h3> Connect with me on LinkedIn</h3> </a>
+                <h2> Software Development </h2>
+
+
+                <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"> <h3> Github  </h3> </a> &
+                 <a href="https://www.linkedin.com/in/romanbumburyak/" > <h3>LinkedIn</h3> </a>
+                 <h5>Check out my Code Repositories and my LinkedIn Account</h5>
+
             </div>
         </header>
 
           <header className="App-headerTwo">
              <h2>This Site was created using React.js </h2>
                <p className="CreationInformation">
-                  My Skill sets include: Java, Spring, IntelliJ, Android Studio, Building Restful Apis, React.js, JavaScript,
+                  My Skill sets include: Java, IntelliJ,  Spring, React.js, Vue.js,  Javascript, Android Studio,
 
                </p>
             <p className="CreationInformationTwo">
              Node.js, Express, HTML 5, CSS 3,
-            Git & Zsh, Github, SQL Databases, MongoDB, WordPress among other frameworks.
+            Git, Github, Node, SQL, MongoDB, WordPress, Salesforce CRM, Front-End and Back-End development and deployment.
             </p>
 
           </header>
 
           <header className="App-headerThree">
-             <h2> Here are several examples of my work. The examples range from HTML, CSS and JavaScript to Java.</h2>
+             <h2> Here are several examples of my Projects. The examples range from HTML/CSS and JavaScript, to Java.</h2>
 
                  <div className="HeaderThreeExtensionOne">
-                              <h4> Here are several examples of my work. The examples range from HTML, CSS and JavaScript to Java.</h4>
+                              <h4> "Work order Creator" - Java.</h4>
+                              <a href= "https://github.com/RomanBumburyak/WorkOrder/tree/master/src"> <h3> WorkOrder </h3>  </a>
+
                  </div>
 
+
                  <div className="HeaderThreeExtensionTwo">
+
+                 <h4> "CanIgetUhh"- Written in Java and React.</h4>
+
+                 <a href= "https://github.com/canIgetUhh/"> <h3>CanIgetUhh</h3>  </a>
+
+                 <div className = "App-logo-CanI"></div>
 
                  </div>
 
                  <div className="HeaderThreeExtensionThree">
+
+                              <h4> "iTunes API" - Created using HTML, CSS & JavaScript .</h4>
+                              <a href= "https://github.com/RomanBumburyak/iTunes-Project/tree/master/starter_files%2011"> <h3>iTunes API</h3>  </a>
 
                  </div>
 
@@ -65,19 +81,16 @@ class App extends Component {
           <div className= "ExtensionOne">
           <img src={logo} className="App-logo" alt="logo" />
 
-             <h1> My Mantra </h1>
+             <h1> Mantra </h1>
                <h2> I am a motivated and hungry developer. </h2>
 
-                        I love to code and I love to learn new technologies.
+                       I love to code and I love to learn new technologies.
                        I am detail oriented and I am consistently thinking outside-the-box. Technology is growing and
-                       expanding at an astounding pace. As a Developer, I understand that staying on top of tech is a
-                       way to utlilize them quicker and stay ahead of the competition, while <h2>saving time </h2>. I aspire to
-                       become an Architect in Programming one day in order to create applications that will contribute
-                       to the expansion of Tech and Web Development.
-
-
-
-
+                       expanding at an astounding pace. As a Developer, I understand that staying on top of tech is the
+                       best way to adapt learn while staying updated an informed.
+                        <h2> Daily Goals </h2>
+                       My goal is to convert real-life issues into software solutions. Saving time and automating processes
+                        are essential to growth and we can accomplish these goals with different Software solutions.
 
             </div>
 
@@ -99,9 +112,31 @@ class App extends Component {
           </div>
 
           <div className= "ExtensionFive">
-            <p className="NodeIntroBlock">  Node.js is a JavaScript environment that includes everything a Developer needs to run a program written in JavaScript.
-            </p>
+
+
+
+            <div className="NodeIntroBlock">  Node.js is a JavaScript environment that includes everything a Developer needs to run a program written in JavaScript.
+                  <h1> Hello </h1>
+            </div>
+
+
+
           </div>
+
+
+
+                      <div className= "NpmTerminalLook">
+
+                            <div className= "InternalTerminal">
+                            node -v
+                            npm -v
+                            npm start
+                            </div>
+
+
+
+                      </div>
+
 
           <div className= "ExtensionSix">
               I have experience building several Android applications with Android Studio. I have working knowledge
@@ -112,8 +147,7 @@ class App extends Component {
           <div className= "UnderLinerOne">
 
            <p className="UnderlinerParaOne">
-              I have experience building several Android applications with Android Studio. I have working knowledge
-              with XML and Kotlin.
+
            </p>
 
           </div>
