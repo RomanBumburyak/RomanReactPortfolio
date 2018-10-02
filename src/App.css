@@ -22,6 +22,21 @@
   top: 120px;
   opacity: 0.9;
 }
+.MainHeaderDiv:hover{
+  background-color: white;
+  color: black;
+}
+
+.MainHeaderDivTwo{
+  height: 180px;
+  width:  320px;
+  background-color: #222;
+  color: white;
+  position:relative;
+  left:150px;
+  top: 30px;
+  padding-right: 30px;
+}
 
 .App-header {
   background-image: url(./img/PicassoPic1.jpg);
@@ -31,6 +46,7 @@
   height: 600px;
   padding: 20px;
   color: white;
+  box-shadow: 5px 2px 45px #000;
   /*font-weight: bold;*/
   /*margin-bottom: 5px;*/
 }
@@ -43,7 +59,8 @@
   margin-bottom: 25px;
 }
 .App-headerTwo:hover{
-background-color: grey;
+background-color: white;
+color: black;
 background-repeat: no-repeat;
 background-size: contain;
 
@@ -74,12 +91,28 @@ background-size: contain;
 
 
 .HeaderThreeExtensionOne{
-  width: 160px;
-  height: 250px;
-  background-color: rgb(0, 181, 112);
+  width: 190px;
+  height: 290px;
+  background-color: silver;
   font-family: sans-serif;
+  background-color: black;
+
 
 }
+
+.HeaderThreeExtensionOneMainPic{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/SpringPicTwo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 87px;
+  height: 170px;
+  width:230px;
+
+}
+
+
 
 .HeaderThreeExtensionTwo{
   color: black;
@@ -88,8 +121,6 @@ background-size: contain;
   background-color: white;
 
 }
-
-
 
 .App-logo-CanI{
     display: flex;
@@ -109,9 +140,23 @@ background-size: contain;
 }
 
 .HeaderThreeExtensionThree{
-  width: 160px;
+  width: 190px;
   height: 250px;
+  background-image: url(./img/JavaScriptPicOne.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+
+.HeaderThreeExtensionThreeLast{
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
   background-color: rgb(67,214,252);
+  margin-top: 66px;
 
 }
 
@@ -145,6 +190,8 @@ background-size: contain;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
+  box-shadow: 5px 2px 65px #000;
+
 }
 
 .ExtensionTwo{
@@ -156,6 +203,7 @@ background-size: contain;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
+
 }
 
 .ExtensionThree{
@@ -180,11 +228,14 @@ background-size: contain;
   background-size: contain;
   font-size: 1.3rem;
   font-weight: bold;
-  height: 500px;
-  width: 500px;
+  height: 258px;
+  width: 490px;
   padding: 20px;
   color: white;
   margin-bottom: 25px;
+  box-shadow: 15px 22px 45px #000;
+
+
 }
 
 .ExtensionFive{
@@ -202,17 +253,21 @@ background-size: contain;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+  box-shadow: 5px 2px 45px #000;
+
 
 }
 
 .NpmTerminalLook{
   background-color: black;
+  display: flex;
+  justify-content: flex-start;
   height: 500px;
   width: 550px;
   color:red;
   top: 150px;
   animation: 5s;
-  animation-name: popOutFour;
+  animation-name: popOutFive;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -221,12 +276,22 @@ background-size: contain;
 }
 
 .InternalTerminal{
-  background-color: black;
-
-  height: 450px;
+  background-image: url("./img/SpringPicOne.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 550px;
   width: 550px;
   animation-name: popOutFour;
 
+}
+
+.InternalTerminalTwo{
+  background-image: url("./img/SpringPicThree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 235px;
+  height: 550px;
+  width: 550px;
 }
 
 .NodeIntroBlock{
@@ -235,10 +300,10 @@ background-size: contain;
   color: black;
   font-weight:bold;
   position: relative;
-  top: 200px;
+  top: 180px;
   animation: 5s;
   animation-name: popOut;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -376,6 +441,24 @@ background-size: contain;
   100% {
     padding: 0 100px;
     background-color:black;
+  }
+
+}
+
+@keyframes popOutFive {
+  0% {
+    padding: 0;
+    background-color:white;
+  }
+
+  50% {
+    padding: 0 50px;
+    background-color:darkgreen;
+  }
+
+  100% {
+    padding: 0 120px;
+    background-color:green;
   }
 
 }

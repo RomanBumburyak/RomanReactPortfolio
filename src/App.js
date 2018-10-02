@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom'; Never used so I won't include it for now.
 import logo from './logo.svg';
 import './App.css';
-import {hot} from "react-hot-loader";
+// import {hot} from "react-hot-loader";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+
+
+
 
 
 
@@ -28,6 +33,13 @@ class App extends Component {
                  <h5>Check out my Code Repositories and my LinkedIn Account</h5>
 
             </div>
+
+            <Fade left>
+              <div className="MainHeaderDivTwo">
+              Contact Me at
+              </div>
+            </Fade>
+
         </header>
 
           <header className="App-headerTwo">
@@ -48,9 +60,15 @@ class App extends Component {
 
                  <div className="HeaderThreeExtensionOne">
                               <h4> "Work order Creator" - Java.</h4>
-                              <a href= "https://github.com/RomanBumburyak/WorkOrder/tree/master/src"> <h3> WorkOrder </h3>  </a>
+                              <a href= "https://github.com/RomanBumburyak/WorkOrder/tree/master/src"> <h2> WorkOrder </h2>  </a>
+
+                              <div className="HeaderThreeExtensionOneMainPic">
+
+                              </div>
+
 
                  </div>
+
 
 
                  <div className="HeaderThreeExtensionTwo">
@@ -66,8 +84,11 @@ class App extends Component {
                  <div className="HeaderThreeExtensionThree">
 
                               <h4> "iTunes API" - Created using HTML, CSS & JavaScript .</h4>
-                              <a href= "https://github.com/RomanBumburyak/iTunes-Project/tree/master/starter_files%2011"> <h3>iTunes API</h3>  </a>
 
+                              <div className="HeaderThreeExtensionThreeLast">
+                              <a href= "https://github.com/RomanBumburyak/iTunes-Project/tree/master/starter_files%2011"> <h2>iTunes API</h2>  </a>
+
+                              </div>
                  </div>
 
 
@@ -99,7 +120,7 @@ class App extends Component {
                 I have always loved computers and technology, I have always been near my computer and my tech. I vividly remember my first Sony Computer when I was five years old.
                 Growing up I sat by my computer for hours on end - learning and practicing. I learned HTML and CSS and began creating landing pages. I grew as a freelancer and
                 began learning JavaScript. From there my interest really blossomed. I began looking into Object Oriented programming and saw the potential. I am constantly learning and
-                researching programmatic languages and frameworks. From a young age, I knew that developing software would be a life long dream and activity.
+                researching programmatic languages and frameworks. From a young age, I knew that developing software would be a life-long dream and activity.
 
           </div>
 
@@ -115,8 +136,18 @@ class App extends Component {
 
 
 
-            <div className="NodeIntroBlock">  Node.js is a JavaScript environment that includes everything a Developer needs to run a program written in JavaScript.
-                  <h1> Hello </h1>
+            <div className="NodeIntroBlock">
+                <h4>Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.</h4>
+              Compiled successfully!
+
+                You can now view my-app in the browser.
+
+                Local:            http://localhost:3001/
+                On Your Network:  http://10.1.10.21:3001/
+
+                Note that the development build is not optimized.
+                To create a production build, use npm run build.
+                    <h1> V8 </h1>
             </div>
 
 
@@ -128,9 +159,10 @@ class App extends Component {
                       <div className= "NpmTerminalLook">
 
                             <div className= "InternalTerminal">
-                            node -v
-                            npm -v
-                            npm start
+
+                              <div className= "InternalTerminalTwo">
+
+                              </div>
                             </div>
 
 
@@ -147,7 +179,7 @@ class App extends Component {
           <div className= "UnderLinerOne">
 
            <p className="UnderlinerParaOne">
-
+             <h1>HTML</h1>
            </p>
 
           </div>
