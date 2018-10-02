@@ -8,6 +8,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCoffee, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import Download from '@axetroy/react-download';
 
 
 
@@ -24,19 +25,23 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             <div className="MainHeaderDiv">
-              <h2> Roman N.Bumburyak </h2>
+
                 <h2> Software Development </h2>
 
 
                 <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"> <h3> Github  </h3> </a> &
                  <a href="https://www.linkedin.com/in/romanbumburyak/" > <h3>LinkedIn</h3> </a>
                  <h5>Check out my Code Repositories and my LinkedIn Account</h5>
+                 <h1>Atlanta,GA</h1>
+                 <h3>Cell: 678.343.5318 </h3>romanbumburyak@gmail.com
+
 
             </div>
 
             <Fade left>
               <div className="MainHeaderDivTwo">
-              Contact Me at
+                <h1> Roman N.Bumburyak </h1>
+
               </div>
             </Fade>
 
@@ -83,7 +88,7 @@ class App extends Component {
 
                  <div className="HeaderThreeExtensionThree">
 
-                              <h4> "iTunes API" - Created using HTML, CSS & JavaScript .</h4>
+                              <h4> "iTunes API" - Created using HTML, CSS & JavaScript </h4>
 
                               <div className="HeaderThreeExtensionThreeLast">
                               <a href= "https://github.com/RomanBumburyak/iTunes-Project/tree/master/starter_files%2011"> <h2>iTunes API</h2>  </a>
@@ -107,17 +112,16 @@ class App extends Component {
 
                        I love to code and I love to learn new technologies.
                        I am detail oriented and I am consistently thinking outside-the-box. Technology is growing and
-                       expanding at an astounding pace. As a Developer, I understand that staying on top of tech is the
-                       best way to adapt learn while staying updated an informed.
+                       expanding at an astounding pace. As a Developer, I am always developing my skills and constantly learning.
                         <h2> Daily Goals </h2>
-                       My goal is to convert real-life issues into software solutions. Saving time and automating processes
-                        are essential to growth and we can accomplish these goals with different Software solutions.
+                       My goal is to convert real-life issues into Software solutions. Saving time and automating processes
+                        are essential to growth, we can accomplish these goals through different Software solutions.
 
             </div>
 
           <div className= "ExtensionTwo">
             <h1> My Story </h1>
-                I have always loved computers and technology, I have always been near my computer and my tech. I vividly remember my first Sony Computer when I was five years old.
+                I have always loved computers and technology, I have always been near my computer. I vividly remember my first Sony Computer when I was five years old.
                 Growing up I sat by my computer for hours on end - learning and practicing. I learned HTML and CSS and began creating landing pages. I grew as a freelancer and
                 began learning JavaScript. From there my interest really blossomed. I began looking into Object Oriented programming and saw the potential. I am constantly learning and
                 researching programmatic languages and frameworks. From a young age, I knew that developing software would be a life-long dream and activity.
@@ -171,15 +175,18 @@ class App extends Component {
 
 
           <div className= "ExtensionSix">
-              I have experience building several Android applications with Android Studio. I have working knowledge
-              with XML and Kotlin.
+              <div className="ExtensionSixContent">
+              I have experience building several Android applications with Android Studio.I have working knowledge with XML and Kotlin.
+
+
+              </div>
           </div>
 
 
           <div className= "UnderLinerOne">
 
            <p className="UnderlinerParaOne">
-             <h1>HTML</h1>
+
            </p>
 
           </div>

@@ -12,14 +12,14 @@
 
 
 .MainHeaderDiv{
-  height: 340px;
-  width:180px;
+  height: 370px;
+  width:220px;
   background-color: #222;
   color: white;
   /*display: inline-block;*/
   position:relative;
   left:1050px;
-  top: 120px;
+  top: 115px;
   opacity: 0.9;
 }
 .MainHeaderDiv:hover{
@@ -28,15 +28,24 @@
 }
 
 .MainHeaderDivTwo{
-  height: 180px;
-  width:  320px;
-  background-color: #222;
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+  height: 205px;
+  width:  480px;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  position:relative;
+  position:absolute;
   left:150px;
-  top: 30px;
-  padding-right: 30px;
+  bottom: 350px;
 }
+.MainHeaderDivTwo:hover{
+  color:black;
+  background-color: grey;
+}
+
+
 
 .App-header {
   background-image: url(./img/PicassoPic1.jpg);
@@ -97,7 +106,6 @@ background-size: contain;
   font-family: sans-serif;
   background-color: black;
 
-
 }
 
 .HeaderThreeExtensionOneMainPic{
@@ -111,8 +119,6 @@ background-size: contain;
   width:230px;
 
 }
-
-
 
 .HeaderThreeExtensionTwo{
   color: black;
@@ -235,7 +241,9 @@ background-size: contain;
   margin-bottom: 25px;
   box-shadow: 15px 22px 45px #000;
 
-
+}
+.ExtensionFour:hover{
+  color:black;
 }
 
 .ExtensionFive{
@@ -313,14 +321,27 @@ background-size: contain;
 .ExtensionSix{
   background-image: url(./img/JavaAndroidStudio.jpeg);
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   background-repeat: no-repeat;
   background-size: contain;
   height: 500px;
   width: 500px;ß
   padding: 20px;
-  color: black;
   margin-bottom: 25px;
+}
+
+.ExtensionSixContent{
+  height: 70px;
+  width: 500px;
+  padding: 20px;
+  background-color: green;
+  color: black;
+  margin-top: 285px;
+  animation-name: popOutSix;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
 
 .UnderLinerOne{
@@ -331,14 +352,6 @@ background-size: contain;
   width: 500px;
   padding: 20px;
   color: white;
-  /*background-repeat: no-repeat;*/
-  background-size: contain;
-  animation-name: popOutTwo;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-
 
 }
 
@@ -452,13 +465,30 @@ background-size: contain;
   }
 
   50% {
-    padding: 0 50px;
-    background-color:darkgreen;
+    padding: 0 60px;
+    background-color:green;
   }
 
   100% {
     padding: 0 120px;
-    background-color:green;
+    background-color:white;
+  }
+
+}
+
+@keyframes popOutSix {
+  0% {
+    padding: 0;
+    background-color:white;
+  }
+
+  50% {
+    padding: 0 ;
+    background-color:silver;
+  }
+  100% {
+    padding: 0 ;
+    background-color:white;
   }
 
 }
