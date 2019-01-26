@@ -24,26 +24,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-            <div className="MainHeaderDiv">
-
-                <h2> Software Development </h2>
 
 
-                <a href ="https://github.com/RomanBumburyak/RomanReactPortfolio"> <h3> Github  </h3> </a> &
-                 <a href="https://www.linkedin.com/in/romanbumburyak/" > <h3>LinkedIn</h3> </a>
-                 <h5>Check out my Code Repositories and my LinkedIn Account</h5>
-                 <h1>Atlanta,GA</h1>
-                 <h3>Cell: 678.343.5318 </h3>romanbumburyak@gmail.com
 
-
-            </div>
-
-            <Fade left>
               <div className="MainHeaderDivTwo">
                 <h1> Roman N.Bumburyak </h1>
 
               </div>
-            </Fade>
+            
 
         </header>
 
@@ -129,7 +117,6 @@ class App extends Component {
           </div>
 
           <div className= "ExtensionThree">
-              Npm is the Node.js Package Manager I used for this React App.
           </div>
 
           <div className= "ExtensionFour">
@@ -174,22 +161,7 @@ class App extends Component {
                       </div>
 
 
-          <div className= "ExtensionSix">
-              <div className="ExtensionSixContent">
-              I have experience building several Android applications with Android Studio.I have working knowledge with XML and Kotlin.
 
-
-              </div>
-          </div>
-
-
-          <div className= "UnderLinerOne">
-
-           <p className="UnderlinerParaOne">
-
-           </p>
-
-          </div>
 
       </div>
 
