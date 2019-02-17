@@ -1,0 +1,39 @@
+.parent-header{
+    background-color:black;
+    margin-bottom:5%;
+    height: 200px;
+}
+
+.header-flex-begins{
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.header-flex-one{
+    height:200px;
+    width: 30vw;
+    background-image: url("./img/react.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:25px;
+}
+.header-flex-two{
+    height:200px;
+    width: 30vw;
+    background-image: url("./img/NodeJsFirst.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:25px;
+}
+.header-flex-three{
+    height:200px;
+    width: 30vw;
+    background-image: url("./img/JavaRed.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:25px;
+}

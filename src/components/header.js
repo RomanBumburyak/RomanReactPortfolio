@@ -1,11 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './header.css';
+
 
 class Header extends React.Component {
     render () {
         return (
-            <h2 style={{color:'orange'}}> Hey Header </h2>
+            <div className="parent-header">
+                 <div className='header-flex-begins'> 
+                    <div className='header-flex-one'> </div>
+                    <div className='header-flex-two'> </div>
+                    <div className='header-flex-three'> </div>
+                    
+
+                    
+
+                 </div>
+            </div>
+           
          )
     }
    
