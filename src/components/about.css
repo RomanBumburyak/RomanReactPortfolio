@@ -1,0 +1,10 @@
+.about-class-parent{
+    color: gold;
+    height: 200px;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    overflow-wrap: normal;
+
+}

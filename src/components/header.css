@@ -1,21 +1,19 @@
 .parent-header{
     background-color:black;
-    margin-bottom:5%;
+    /* margin-bottom:5%; */
     height: 200px;
 }
 
 .header-flex-begins{
     height: 250px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 
 .header-flex-one{
     height:200px;
-    width: 30vw;
+    width: 33%;
     background-image: url("./img/react.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +21,7 @@
 }
 .header-flex-two{
     height:200px;
-    width: 30vw;
+    width: 33%;
     background-image: url("./img/NodeJsFirst.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +29,7 @@
 }
 .header-flex-three{
     height:200px;
-    width: 30vw;
+    width: 33%;
     background-image: url("./img/JavaRed.png");
     background-repeat: no-repeat;
     background-size: cover;

@@ -6,12 +6,12 @@ class Information extends React.Component {
     render () {
         return (
             
-                <div className="parent Info"> 
-                    <h1 style={{color:'blue', height:'30%', backgroundColor:'black'}}> Hey Information </h1>    
-                <div style={{display:'flex', justifyContent:'center'}}>
+                <div className="parent-Info"> 
+                    
+                <div className="main-info-div"style={{color:'gold', height:'300px', backgroundColor:'#333'}}>
                       <p>
-                Node.js, Express, HTML 5, CSS 3,
-            Git, Github, Node, SQL, MongoDB, WordPress, Salesforce CRM, Front-End and Back-End development and deployment.
+                      hello
+
 
                     </p>
                    
