@@ -21,7 +21,7 @@ class App extends Component {
     return (
       
       <div className="main div" style={{backgroundColor:'black'}}>
-        <h1 style={{height:'10%', display:'flex', justifyContent:'center', color:'gold', marginBottom:'35px'}}> Roman Bumburyak Portfolio </h1>
+        <h1 style={{height:'10%', display:'flex', justifyContent:'center', color:'gold', marginBottom:'35px',fontFamily: 'Cinzel'}}> Roman Bumburyak Portfolio </h1>
         <Header/>
         <About/>
         <Information/>
