@@ -28,6 +28,8 @@ class Information extends React.Component {
                params= {particleOpt}
            />
 
+                
+
                       
 
 

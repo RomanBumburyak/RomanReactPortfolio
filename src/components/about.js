@@ -7,10 +7,10 @@ class About extends React.Component {
     render () {
         return (
             <div className='about-class-parent' >
-        Technical Skills
+        Technical Skills:
 
                 <p s>
-                Node.js, Express, HTML 5, CSS 3,
+                React, React Native, JavaScript, Node.js, Express, HTML 5, CSS 3,
                 Git, Github, Node, SQL, MongoDB, WordPress, Salesforce CRM, Front-End and Back-End development and deployment.
                 </p>
                 <br></br>
