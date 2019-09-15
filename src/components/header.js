@@ -26,6 +26,8 @@ class Header extends React.Component {
         <div className='header-flex-begins'> 
                      <div className='header-flex-one'>
                     </div>
+                    <div className='header-flex-two'>
+                    </div>
         </div>
 </div>
                 

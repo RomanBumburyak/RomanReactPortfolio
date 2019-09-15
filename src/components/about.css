@@ -1,9 +1,16 @@
 .about-class-parent{
     color: silver;
     height: 200px;
-    background-color: black;
+    width: 100vw;
+    background-color: grey;
     font-family: 'Cinzel', serif;
-    flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.social-media-list{
+    background-color: beige;
+    height: 165px;
+    width: 50px;
 }

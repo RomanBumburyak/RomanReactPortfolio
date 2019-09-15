@@ -11,17 +11,14 @@ class About extends React.Component {
     render () {
         return (
             <div className='about-class-parent' >
+                <div className='social-media-list'>
+                 <ul>
+                     <li></li>
+                     <li></li>
+                     <li></li>
 
-                <p>
-                React, React Native, JavaScript, Node.js, Express, HTML 5, CSS 3,
-                Git, Github, Node, SQL, MongoDB, WordPress, Salesforce CRM, Front-End and Back-End development and deployment.
-                </p>
-       
-              
-               
-                
-                
-                
+                 </ul>
+                </div>       
             </div>
                      
                    

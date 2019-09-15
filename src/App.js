@@ -20,8 +20,7 @@ class App extends Component {
   render() {
     return (
       
-      <div className="main div" style={{backgroundColor:'black'}}>
-        <h1 style={{height:'10%', display:'flex', justifyContent:'center', color:'gold', marginBottom:'35px',fontFamily: 'Cinzel'}}> Roman Bumburyak (Currently making changes to site)  </h1>
+      <div className="main div" style={{backgroundColor:'lightgrey'}}>
         
         <Header/>
         <About/>
