@@ -1,19 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Particles from 'react-particles-js';
 
-
-const particleOpt = {
-    particles: {
-      number: {
-        value: 160,
-        density:{
-          enable: true,
-          value_area:500,
-        }
-      }
-    }
-}
 
 
 
@@ -32,9 +19,7 @@ class Information extends React.Component {
                       My goal is to convert real-life issues into software solutions. 
     
                      </p>
-                     <Particles className='under-nav-particles' 
-               params= {particleOpt}
-           />
+             
 
                   
               

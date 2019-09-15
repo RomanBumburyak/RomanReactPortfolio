@@ -1,5 +1,5 @@
 .parent-header{
-    background-color:black;
+    background-color:lightgrey;
     /* margin-bottom:5%; */
     height: 200px;
 }
@@ -7,31 +7,17 @@
 .header-flex-begins{
     height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     
 }
 
 .header-flex-one{
     height:200px;
-    width: 33%;
-    background-image: url("./img/react.png");
+    width: 20vw;
+    background-image: url("./img/RomanBumburyakHeadshot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom:25px;
+    border-radius: 50%;
 }
-.header-flex-two{
-    height:200px;
-    width: 33%;
-    background-image: url("./img/NodeJsFirst.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:25px;
-}
-.header-flex-three{
-    height:200px;
-    width: 33%;
-    background-image: url("./img/JavaRed.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:25px;
-}
+

@@ -1,27 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Particles from 'react-particles-js';
 import './header.css';
-import MediaQuery from 'react-responsive';
 
+const particleOpt = {
+    particles: {
+      number: {
+        value: 160,
+        density:{
+          enable: true,
+          value_area:400,
+        }
+      }
+    }
+}
 
 
 class Header extends React.Component {
     render () {
         return (
-            <div className='parent-header'>
-           
+<div className='parent-header'>
+           <Particles className='under-nav-particles' 
+               params= {particleOpt}
+           />
         <div className='header-flex-begins'> 
-                        <div className='header-flex-one'> </div>
-                        <div className='header-flex-two'> </div>
-                        <div className='header-flex-three'> </div>
-                   
-                 </div>
-                 {/* <MediaQuery query="(max-width: 1224px)">
-                    <h1>You are sized like a tablet or mobile phone though</h1>
-                 </MediaQuery> */}
-                    
-            </div>
+                     <div className='header-flex-one'>
+                    </div>
+        </div>
+</div>
                 
             
            
