@@ -1,38 +1,46 @@
 .parent-header{
     background-color:lightgrey;
     /* margin-bottom:5%; */
-    height: 200px;
+    height: 300px;
     padding: 50px;
+
+}
+
+.particles-div{
+    background-color:lightgrey;
+    /* margin-bottom:5%; */
+    height: 200px;
+    padding: 40px;
 }
 
 .header-flex-begins{
     height: 250px;
     display: flex;
     justify-content: flex-end;
-    
+    background-color:grey;
 }
 
 .header-flex-one{
-    height:200px;
+    height:250px;
     width: 40vw;
-    background-color: aliceblue;
+    background-color: #333;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:25px;
-    margin-top:10px;
+    /* margin-bottom:25px;
+    margin-top:10px; */
 }
 
-.header-flex-two{
+/* .header-flex-two{
     height:100px;
     width: 100px;
     background-image: url("./img/RomanBumburyakHeadshot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* margin-bottom:25px; */
-    border-radius: 50%;
+    /* border-radius: 50%;
     opacity: 0.5;
     margin-top: 55px;
     margin-right: -33px;
 
-}
+} */ 
 

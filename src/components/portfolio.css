@@ -1,0 +1,92 @@
+.parent-portfolio{
+    height: 100vh;
+    width: 100vw; 
+    background-color: black;
+     /* padding:15px; */
+     margin-bottom:15px;
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.begin-portfolio-flex{
+    
+    height: 100vh; 
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.portfolio-block-one{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/nodePortfolio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:15px;
+
+}
+
+.portfolio-block-two{
+    width:30vw;
+    height: 60vh;
+    background-color: aqua;
+    padding:15px;
+
+}
+
+.portfolio-block-three{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/JavaRed.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:15px;
+
+}
+.portfolio-block-four{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/JavaScriptPicOne.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:35px;
+
+}
+
+.portfolio-block-five{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/JavaScriptPicOne.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:15px;
+
+}
+
+.my-info-parent{
+    width:25vw;
+    height: 90vh;
+    
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.my-info-one{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/JavaScriptPicOne.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.my-info-two{
+    width:30vw;
+    height: 60vh;
+    background-image: url(./img/JavaScriptPicOne.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -20,9 +20,13 @@ class Header extends React.Component {
     render () {
         return (
 <div className='parent-header'>
-           <Particles className='under-nav-particles' 
-               params= {particleOpt}
-           />
+            <div className='particles-div'>
+                <Particles className='under-nav-particles' 
+                params= {particleOpt}
+                />
+                
+            </div>
+           
         <div className='header-flex-begins'> 
                      <div className='header-flex-one'>
                     </div>
