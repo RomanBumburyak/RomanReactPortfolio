@@ -11,14 +11,14 @@ class About extends React.Component {
     render () {
         return (
             <div className='about-class-parent' >
-                <div className='social-media-list'>
+                {/* <div className='social-media-list'>
                  <ul>
                      <li></li>
                      <li></li>
                      <li></li>
 
                  </ul>
-                </div>       
+                </div>        */}
             </div>
                      
                    

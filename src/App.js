@@ -30,7 +30,7 @@ class App extends Component {
         <Portfolio/>
         <Information/>
        
-        <Footer/>
+        {/* <Footer/> */}
       </div>
       
 

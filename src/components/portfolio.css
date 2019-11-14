@@ -19,20 +19,21 @@
 }
 
 .portfolio-block-one{
-    width:30vw;
+    width:50vw;
     height: 70vh;
-    background-color: #333;
+    background-color: #161c68;
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     overflow: scroll;
 
 }
 
 .portfolio-block-two{
-    width:30vw;
+    width:50vw;
     height: 60vh;
-    background-image: url(./img/JavaRed.png);
+    background-image: url(./img/SpringPicThree.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;

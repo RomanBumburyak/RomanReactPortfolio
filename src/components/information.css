@@ -24,15 +24,16 @@
     width: 100vw;
     background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
-    font-size: 90%;
+    font-size: 95%;
 }
 
 .info-child-one{
-    color: gold;
+    color: black;
     height: 200px;
     width: 100vw;
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    font-size: 95%;
 }
 
 .info-child-two{
@@ -41,4 +42,5 @@
     width: 100vw;
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    font-size: 95%;
 }
