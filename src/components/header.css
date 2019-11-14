@@ -1,29 +1,50 @@
 .parent-header{
-    background-color:lightgrey;
+    background-color:#fafafa;
     /* margin-bottom:5%; */
     height: 300px;
     padding: 50px;
+    /* animation: parentanimation 10s infinite; */
+}
+/* @keyframes parentanimation {
+    0% {background-color: black;}
+    25%{background-color:rgb(100, 85, 85);}
+    50%{background-color:rgb(100, 85, 85);}
+    75%{background-color:rgb(100, 85, 85);}
+    100% {background-color: black;}
+  } */
 
+.banner-animated{
+    background-color: #333;
 }
 
+
+
 .particles-div{
-    background-color:lightgrey;
+    background-color:#fafafa;
     /* margin-bottom:5%; */
     height: 200px;
     padding: 40px;
+    animation: myanimation 10s infinite;
 }
+@keyframes myanimation {
+    0% {background-color: #fafafa;}
+    25%{background-color:#fafafa;}
+    50%{background-color:lightgrey;}
+    75%{background-color:#c3abab;}
+    100% {background-color: #fafafa;}
+  }
 
 .header-flex-begins{
     height: 250px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color:grey;
 }
 
 .header-flex-one{
-    height:250px;
+    height: 70px;
     width: 40vw;
-    background-color: #333;
+    background-color: darkblue;
     background-repeat: no-repeat;
     background-size: cover;
     /* margin-bottom:25px;

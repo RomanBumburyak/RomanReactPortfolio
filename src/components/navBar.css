@@ -11,7 +11,7 @@
     font-size: 2rem;
     border-style: solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 50vw;
     padding: 5px;
 }
@@ -33,7 +33,7 @@
     width: 15vh;
     border-style: solid;
     color: black;
-    background-color: white;
+    background-color: blue;
 }
 
 .link-anchor-two{
@@ -41,7 +41,7 @@
     width: 15vh;
     border-style: solid;
     color: black;
-    background-color: white;
+    background-color: black;
 }
 
 .link-anchor-three{
@@ -49,7 +49,9 @@
     width: 15vh;
     border-style: solid;
     color: black;
-    background-color: white;
+    background-image: url("./img/RomanBumburyakHeadshot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .anchor-flex-one{

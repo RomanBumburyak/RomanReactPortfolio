@@ -10,7 +10,8 @@
 }
 
 .social-media-list{
-    background-color: beige;
-    height: 165px;
-    width: 50px;
+    background-color: #fafafa;
+    height: 38vh;
+    width: 3vw;
+    border-style: inset;
 }

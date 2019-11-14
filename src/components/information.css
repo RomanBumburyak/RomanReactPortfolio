@@ -1,18 +1,42 @@
 .main-info-div{
     color: gold;
-    height: 300px;
+    height: 100vh;
     background-color:black;
     width: 100vw;
-    display: flex;
+    display: inline-grid;
     justify-content: flex-start;
     flex: auto;
 }
 
-.about-class-parent{
+/* I hate to say this, I'm not using this class here but I can't delete it because It would offset the header */
+.about-class-parent{ 
     color: silver;
     height: 200px;
     width: 99vw;
     background-color: white;
     font-family: 'Cinzel', serif;
     
+}
+
+.information-class-parent{
+    color: gold;
+    height: 200px;
+    width: 99vw;
+    background-color: black;
+}
+
+.info-child-one{
+    color: gold;
+    height: 200px;
+    width: 100vw;
+    background-color: black;
+    /* font-family: 'Cinzel', serif; */
+}
+
+.info-child-two{
+    color: gold;
+    height: 200px;
+    width: 100vw;
+    background-color: black;
+    /* font-family: 'Cinzel', serif; */
 }

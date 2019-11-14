@@ -20,15 +20,7 @@ class Portfolio extends React.Component {
                                 <a href="https://7oaks.io" target="_blank" rel="noopener noreferrer">7 oaks</a>
                              </div>
 
-                             <div className="portfolio-block-three">
-                                <a href="https://7oaks.io" target="_blank" rel="noopener noreferrer">7 oaks</a>
-                             </div>
-                             <div className="portfolio-block-four">
-                                <a href="https://7oaks.io" target="_blank" rel="noopener noreferrer">7 oaks</a>
-                             </div>
-                             <div className="portfolio-block-five">
-                                <a href="https://7oaks.io" target="_blank" rel="noopener noreferrer">7 oaks</a>
-                             </div>
+                             
 
 
                         </div>
