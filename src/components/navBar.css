@@ -6,8 +6,8 @@
 }
 
 .nav-anchors{
-    color: aliceblue;
-    background-color: white;
+    /* color: aliceblue;
+    background-color: white; */
     font-size: 2rem;
     border-style: solid;
     display: flex;
@@ -61,4 +61,9 @@
     background-image: url("./img/RomanBumburyakHeadshot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    transition: transform 1s;
+}
+
+.anchor-flex-one:hover{
+    transform: scale(2);
 }

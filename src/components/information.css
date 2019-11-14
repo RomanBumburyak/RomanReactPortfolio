@@ -21,16 +21,18 @@
 .information-class-parent{
     color: gold;
     height: 200px;
-    width: 99vw;
-    background-color: black;
+    width: 100vw;
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
 }
 
 .info-child-one{
     color: gold;
     height: 200px;
     width: 100vw;
-    background-color: black;
-    /* font-family: 'Cinzel', serif; */
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .info-child-two{
@@ -38,5 +40,5 @@
     height: 200px;
     width: 100vw;
     background-color: black;
-    /* font-family: 'Cinzel', serif; */
+    font-family: 'Roboto', sans-serif;
 }

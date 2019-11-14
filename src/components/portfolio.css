@@ -1,7 +1,7 @@
 .parent-portfolio{
     height: 100vh;
     width: 100vw; 
-    background-color: darkblue;
+    background-color: #343c95;
      /* padding:15px; */
      margin-bottom:15px;
      display: flex;
@@ -20,19 +20,22 @@
 
 .portfolio-block-one{
     width:30vw;
-    height: 60vh;
-    background-image: url(./img/JavaScriptPicOne.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 70vh;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    display: grid;
+    overflow: scroll;
 
 }
 
 .portfolio-block-two{
     width:30vw;
     height: 60vh;
-    background-image: url(./img/JavaScriptPicOne.png);
-    background-size: contain;
+    background-image: url(./img/JavaRed.png);
+    background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -51,9 +54,11 @@
 .my-info-one{
     width:30vw;
     height: 60vh;
-    background-image: url(./img/JavaScriptPicOne.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    display: grid;
+    overflow: scroll;
 }
 
 .my-info-two{
